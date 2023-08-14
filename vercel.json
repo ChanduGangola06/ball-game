@@ -2,9 +2,9 @@
     "version": 2,
     "builds": [{
         "src": "./src/index.jsx",
-        "use": "@vercel/react"
+        "use": "@vercel/node"
     }],
-    "routes":[{"handle": "filesystem"},
+    "rewrites":[{"handle": "filesystem"},
     {
         "src": "/(.*)",
         "dest": "/"
