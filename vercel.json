@@ -7,7 +7,7 @@
     "rewrites":[{"handle": "filesystem"},
     {
         "src": "/(.*)",
-        "dest": "/"
+        "dest": "/src/index.html"
     }
     ]
 }
